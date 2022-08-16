@@ -78,7 +78,7 @@ const Cart = () => {
       return dispatch({
         type: 'NOTIFY',
         payload: {
-          error: 'The product is out of stock or the quantity is insufficient.',
+          error: 'Sản Phẩm Hết Hàng.',
         },
       });
     }
